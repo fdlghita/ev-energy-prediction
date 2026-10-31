@@ -124,6 +124,14 @@ Tests the frozen hybrid model on two completely unseen trips. Reports MAPE, RMSE
 
 ---
 
+## Portfolio scope and reproducibility
+
+The scripts and published result figures are included. The primary calibration data and `2_preprocessed/` folder are not mirrored due to size. For a complete end-to-end run, obtain the original datasets from the linked collaborative repository and place them at the paths indicated in the run instructions. Validation-trip CSVs and derived features are included for inspection.
+
+![Physics vs hybrid validation error](figs/val_mape_comparison.png)
+
+![Hybrid model performance](figs/model_pred_vs_measured.png)
+
 ## Dependencies
 
 ```bash
